@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family:'Courier New', Courier, monospace
+}
+
+
+.nav {
+    text-align: center;
+    background-color: pink;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0px 20px 0px;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.score-board {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#rock-button, #paper-button, #scissor-button {
+    padding: 5vw;
+    font-size: xx-large;
+    align-self: center;
+    margin: 0 10px 0 10px;
+}
+
+button {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+button:hover {
+    background-color: rgb(222, 222, 223);
+}
+
+button:focus {
+    background-color: rgb(222, 222, 223);
+}
+
+button:active {
+    background-color: rgb(156, 156, 156);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px;
+}
